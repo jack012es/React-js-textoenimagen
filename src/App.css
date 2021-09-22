@@ -32,7 +32,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.meme span {
+  width: 100%;
+  position: absolute;
+  margin-top: 35%;
+  font-size: 40px;
+  color: white;
+  left: 0px
+}
+
+.meme span:nth-child(1) {
+  margin-top: 2%;
+}
+
+.meme img {
+  width: 40%;
+}
+
+body .meme {
+  background: black;
+}
+
+body {
+  background: black;
 }
